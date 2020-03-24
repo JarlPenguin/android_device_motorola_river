@@ -10,7 +10,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Handset_cal.acdb \
     persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
-    persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
+    persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor.audio.dolby.ds2.enabled=true
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
